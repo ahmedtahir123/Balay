@@ -6,6 +6,24 @@ padding: 0px;
 body{
 	height: 100%;
 }
+ a{
+  color: #76797f;
+  /*background-color: transparent;*/
+  text-decoration: none;
+
+
+}
+#icon {
+	/*color: black;*/
+	/*margin-top:5px;*/
+text-align: center;
+letter-spacing: 5px;
+}
+#I:hover {
+text-align: center;
+letter-spacing: 5px;
+color: #FFC300;
+}
 #nav-div{
 	height: 100%;
 	position: fixed;
@@ -27,21 +45,28 @@ body{
    
 }
 #nav-quote{
-	padding: 23%;
+	/*padding: 23%;*/
+	margin: 10px 5% 2% 5%;
 	text-align: justify;
 
 	color:#54585e;
 }
 .nav-element{
+	font-size: 12px;
+text-decoration: none;
 
-	padding: 5px;
+	padding: 10px;
 	color: #76797f;
 }
-
 .nav-element:hover{
 
-	padding: 5px;
-	color: #f9f9f9;
+	/*padding: 5px;*/
+	/*color: #f9f9f9;*/
+	text-decoration: underline;
+	  text-decoration-color: #FFC300;
+
+
+
 }
 
 
@@ -85,7 +110,12 @@ margin-top: 2%;
     font-size: 10px;
 
 }
-#welcome pre{
+#first{
+	padding-bottom:  1px;
+	text-decoration: underline;
+	color: #FFC300
+}
+#welcome p{
 	    margin-bottom: 1.5em;
 
 color: #999999;
@@ -96,7 +126,7 @@ color: #999999;
 
 #adv1{
 	list-style-type: none;
-	margin-top: 2%;
+	/*margin-top: 2%;*/
 	float: right;
 	width: 75%;
 
@@ -142,7 +172,7 @@ color: #999999;
 
 #bodyleft img{
 
-	position: relative;
+position: relative;
 width: 100%;
 height: 657px;
 padding-left:  0px;
@@ -157,9 +187,9 @@ footer div{
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 30px;
 }
-footer div pre{
-margin-left: 26%;
 
+.text{
+	margin-left: 26%;
 	font-size: 18px;
     line-height: 1.5;
 }
@@ -179,7 +209,9 @@ margin-left: 26%;
 
 }
 
-/*
+
 .adv-element :hover{
-border: 1px solid grey;
-}*/
+  transform: scale(1.1); 
+
+}
+
