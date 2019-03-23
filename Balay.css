@@ -89,6 +89,8 @@ margin-top: 2%;
 
 }
 
+
+
 #welcome{
 	width: 80%;
 	float: right;
@@ -135,7 +137,7 @@ color: #999999;
 #adv1  li img{
 	float: left;
 	margin: 2%;
-height: 200px;
+	height: 200px;
 	width: 25%;
 }
 
@@ -170,9 +172,10 @@ color: #999999;
 
 }
 
+
 #bodyleft img{
 
-position: relative;
+/*position: relative;*/
 width: 100%;
 height: 657px;
 padding-left:  0px;
@@ -181,6 +184,7 @@ margin: 0px;
 footer div{
 	margin: 10px 2px 2px 2px;
 }
+
  footer div h2{
  	margin-left: 26%;
 	color: #000;
@@ -210,8 +214,48 @@ footer div{
 }
 
 
-.adv-element :hover{
+.adv-element1 :hover{
   transform: scale(1.1); 
+
+
 
 }
 
+
+#adv ul li{
+	width: 25%;
+	/*height: 300px;*/
+	float: left;
+	margin-left: 5%;
+	margin-top: 2%;
+	/*margin-bottom: 5%;*/
+
+}
+
+#btn2{
+	background-color: white;
+	border-width: 0px;
+	border:1px solid black;
+	border-radius: 3px;  
+	width: 20%;
+	height: 30px;	
+}
+
+#btn2:hover{
+	background-color: grey;
+}
+
+
+#adv ul li[class="adv-element"] img{
+	width: 100%;
+	height: 250px;
+}
+
+
+#adv ul li[class="adv-element1"] img{
+	margin-bottom: 0%;
+	height: 200px;
+	
+	width: 100%;
+	height: 200px;
+}
