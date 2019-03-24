@@ -223,6 +223,7 @@ footer div{
 
 
 #adv ul li{
+
 	width: 25%;
 	/*height: 300px;*/
 	float: left;
@@ -232,17 +233,21 @@ footer div{
 
 }
 
-#btn2{
-	background-color: white;
+
+
+.btn2{
+	/*visibility: hidden;*/
+	position: relative;
+	top: -40px;
 	border-width: 0px;
 	border:1px solid black;
 	border-radius: 3px;  
 	width: 20%;
 	height: 30px;	
 }
-
-#btn2:hover{
+.btn2:hover{
 	background-color: grey;
+
 }
 
 
@@ -251,11 +256,54 @@ footer div{
 	height: 250px;
 }
 
+.adv-element img:hover{
+  visibility: visible;
+}
+
 
 #adv ul li[class="adv-element1"] img{
 	margin-bottom: 0%;
 	height: 200px;
-	
 	width: 100%;
 	height: 200px;
 }
+
+
+.feature-area
+{   
+	margin-top: 10%;
+
+	width: 80%;
+	float: right;
+	height: 100px;
+
+    background-image:url("images/cover_bg_1.jpg"); 
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+.feature-area
+{
+    padding: 100px 0;
+}
+
+#zxc{
+	margin-left: 10%;
+	border-radius: 50%;
+	height: 100px;
+	width: 10%;
+	/*color: black;*/
+	background-color: white;
+}
+
+#z{
+font-size: 60px;
+color:  #FFC300;
+}
+
+
+table tr{
+	margin:20%;
+} 

@@ -8,9 +8,31 @@
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	    <script src="js/cycle.js"></script>
 
+<!-- <script >
+	 var hidden = false;
+	function myfunc(){
+             document.getElementById('btn2').style.visibility = 'visible';
 
+        // hidden = !hidden;
+        // if(hidden) {
+        //     document.getElementById('btn2').style.visibility = 'hidden';
+        //     document.getElementById('btn3').style.visibility = 'hidden';
+        //     document.getElementById('btn4').style.visibility = 'hidden';
+        	
+        // } else {
+        //     document.getElementById('btn2').style.visibility = 'visible';
+        //     document.getElementById('btn3').style.visibility = 'visible';
+        //     document.getElementById('btn4').style.visibility = 'visible';
+       		
+        // }
+
+    };		
+	
+
+</script> -->
 	    <script >
 	    	 $('#slider').cycle(); 
+
 	    
 	    </script>
 
@@ -19,8 +41,8 @@
 <body>
 
 	<div id="nav-div">
-<h1 id="logo"><b>Concept Interior</b></h1>
-<ul id="nav-bar">
+	<h1 id="logo"><b>Concept Interior</b></h1>
+	<ul id="nav-bar">
 				<a href="C:\Users\dell\Desktop\New folder\Balay.html"><li class ="nav-element" id="first">HOME</li></a>
 				<a href="C:\Users\dell\Desktop\New folder\product.html"><li class ="nav-element">PROJECT</li></a>
 				<a href="C:\Users\dell\Desktop\New folder\About.html"><li class ="nav-element">ABOUT</li></a>
@@ -32,7 +54,7 @@
 
 			  <blockquote id="nav-quote"> <b>For a house to be successful, the objects in it must communicate with one another, respond and 
             balance one another.</b></blockquote> 
-<p id="icon">
+	<p id="icon">
             <a href="#"><i id ="I" class="fa fa-facebook"></i></a>
             <a href="#"><i id ="I" class="fa fa-linkedin"></i></a>
             <a href="#"><i id ="I" class="fa fa-instagram"></i></a>
@@ -41,7 +63,7 @@
 
 		
 	</div>
-<div id="bodyleft">
+	<div id="bodyleft">
 		<!-- <h2>ahmed</h2> -->
 		<div id ="slider">
 		<img src=images/img_bg_1.jpg >
@@ -75,64 +97,74 @@ sentences fly into your mouth.
 
 </div>
 
-<!-- 	<div id="ri8">
-		<p>My Work</p>
-		<h2>Recent Work</h2>
-		<ul>
-			<li><img src="images/img-1.jpg"></li>
-			<li><img src="images/img-1.jpg"></li>
-			<li><img src="images/img-1.jpg"></li>
-		</ul>
-	</div>
- -->
+<section class="feature-area" id="feature">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-12 text-center">
+      <!-- //  <i id="z" class="far fa-user-hard-hat"></i> -->
+		<button id="zxc"><i id="z" class="fa fa-facebook"></i></button>
+		<button id="zxc"><i id="z" class="fa fa-skype"></i></button>
+		<button id="zxc"><i id="z" class="fa fa-skype"></i></button>
+		<button id="zxc"><i id="z" class="fa fa-skype"></i></button>
+        
+        </div>
+            </div>
+       
+            
+            </div>
+            
+    </section>
+
+
+
 <div id="adv">
 	<p>My Work</p>
 	<h2>Recent Work</h2><br>
 
 
 	<ul id="adv1">
-		<li class ="adv-element"><img src="images/img-1.jpg">
+		<li class ="adv-element"><img id="1" onmouseover="myfunc()"  src="images/img-1.jpg">
 <center>
-	<button id="btn2"><i class="fa fa-heart"></i></button>
-	<button id="btn2"><i class="fa fa-eye"></i></button>
-	<button id="btn2"><i class="fa fa-shopping-cart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-heart"></i></button>
+	<button class="btn2" id="btn3"><i class="fa fa-eye"></i></button>
+	<button class="btn2" id="btn4"><i class="fa fa-shopping-cart"></i></button>
 
 </center>
 		</li>
 		<li class ="adv-element"><img src="images/img-2.jpg">
 		<center>
-	<button id="btn2"><i class="fa fa-heart"></i></button>
-	<button id="btn2"><i class="fa fa-eye"></i></button>
-	<button id="btn2"><i class="fa fa-shopping-cart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-heart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-eye"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-shopping-cart"></i></button>
 
 </center>
 </li>
 		<li class ="adv-element"><img src="images/img-3.jpg">
 			<center>
-	<button id="btn2"><i class="fa fa-heart"></i></button>
-	<button id="btn2"><i class="fa fa-eye"></i></button>
-	<button id="btn2"><i class="fa fa-shopping-cart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-heart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-eye"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-shopping-cart"></i></button>
 
 </center></li>
 		<li class ="adv-element"><img src="images/img-4.jpg">
 			<center>
-	<button id="btn2"><i class="fa fa-heart"></i></button>
-	<button id="btn2"><i class="fa fa-eye"></i></button>
-	<button id="btn2"><i class="fa fa-shopping-cart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-heart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-eye"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-shopping-cart"></i></button>
 
 </center></li>
 		<li class ="adv-element"><img src="images/img-5.jpg">
 			<center>
-	<button id="btn2"><i class="fa fa-heart"></i></button>
-	<button id="btn2"><i class="fa fa-eye"></i></button>
-	<button id="btn2"><i class="fa fa-shopping-cart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-heart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-eye"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-shopping-cart"></i></button>
 
 </center></li>
 		<li class ="adv-element"><img src="images/img-6.jpg">
 			<center>
-	<button id="btn2"><i class="fa fa-heart"></i></button>
-	<button id="btn2"><i class="fa fa-eye"></i></button>
-	<button id="btn2"><i class="fa fa-shopping-cart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-heart"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-eye"></i></button>
+	<button class="btn2" id="btn2"><i class="fa fa-shopping-cart"></i></button>
 
 </center></li>
 	</ul>
